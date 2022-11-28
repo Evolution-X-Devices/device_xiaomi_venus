@@ -2,4 +2,11 @@
 <resources>
     <dimen name="navigation_side_padding">85dp</dimen>
     <dimen name="rounded_corner_content_padding">68px</dimen>
+
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">4dp</dimen>
+
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">4dp</dimen>
+
 </resources>
