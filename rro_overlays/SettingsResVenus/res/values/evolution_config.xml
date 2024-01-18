@@ -11,4 +11,14 @@
          3 = Right
     -->
     <integer name="config_fingerprintSensorLocation">1</integer>
+
+    <!-- Whether to show Minimum and Maximum refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
+    <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
+
+    <!-- Whether to show a preference item for regulatory information in About phone -->
+    <bool name="config_show_regulatory_info">true</bool>
+
+    <!-- Whether to show the Preference for Touch Sensitivity -->
+    <bool name="config_show_touch_sensitivity">true</bool>
 </resources>

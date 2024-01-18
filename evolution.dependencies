@@ -12,23 +12,14 @@
     "target_path": "vendor/xiaomi/venus"
   },
   {
-    "repository": "shaughzam/vendor_xiaomi_venus-firmware",
-    "target_path": "vendor/xiaomi/venus-firmware",
-    "remote": "gitlab"
-  },
-  {
-    "repository": "shaughzam/vendor_xiaomi_venus-miuicamera",
+    "repository": "shaazice/vendor_xiaomi_venus-miuicamera",
     "target_path": "vendor/xiaomi/venus-miuicamera",
     "remote": "gitlab"
   },
   {
-    "repository": "kernel_xiaomi_venus",
-    "target_path": "kernel/xiaomi/venus"
+    "repository": "crdroidandroid/android_kernel_xiaomi_sm8350",
+    "target_path": "kernel/xiaomi/sm8350",
+    "remote": "github",
+    "branch": "14.0"
   },
-  {
-    "repository": "jjpprrrr/prelude-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-prelude",
-    "branch": "master",
-    "remote": "gitlab"
-  }
 ]
