@@ -14,6 +14,10 @@ $(call inherit-product, device/xiaomi/venus/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+EVO_BUILD_TYPE := Official
+TARGET_HAS_UDFPS := true
+
+# Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := venus
 PRODUCT_MANUFACTURER := Xiaomi

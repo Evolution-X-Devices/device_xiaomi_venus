@@ -1,0 +1,28 @@
+[
+  {
+    "repository": "device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common"
+  },
+  {
+    "repository": "vendor_xiaomi_sm8350-common",
+    "target_path": "vendor/xiaomi/sm8350-common"
+  },
+  {
+    "repository": "vendor_xiaomi_venus",
+    "target_path": "vendor/xiaomi/venus"
+  },
+  {
+    "repository": "hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "packages_apps_ViPER4AndroidFX",
+    "target_path": "packages/apps/ViPER4AndroidFX"
+  },
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_sm8350",
+    "target_path": "kernel/xiaomi/sm8350",
+    "remote": "github-non-los",
+    "branch": "14.0"
+  }
+]
