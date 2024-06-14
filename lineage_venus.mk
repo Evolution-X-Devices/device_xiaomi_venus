@@ -14,6 +14,10 @@ $(call inherit-product, device/xiaomi/venus/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+EVO_BUILD_TYPE := Official
+TARGET_HAS_UDFPS := true
+
+# Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := venus
 PRODUCT_MANUFACTURER := Xiaomi
@@ -26,9 +30,9 @@ PRODUCT_SYSTEM_NAME := venus_global
 PRODUCT_SYSTEM_DEVICE := venus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="venus_global-user 14 UKQ1.231207.002 V816.0.5.0.UKBMIXM release-keys" \
+    PRIVATE_BUILD_DESC="venus_global-user 14 UKQ1.231207.002 V816.0.6.0.UKBMIXM release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Xiaomi/venus_global/venus:14/UKQ1.231207.002/V816.0.5.0.UKBMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/venus_global/venus:14/UKQ1.231207.002/V816.0.6.0.UKBMIXM:user/release-keys
