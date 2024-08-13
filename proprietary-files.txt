@@ -1,4 +1,4 @@
-# These proprietary files are extracted from venus OS1.0.2.0.UKBMIXM, note the pinned blobs
+# These proprietary files are extracted from venus OS1.0.5.0.UKBMIXM, note the pinned blobs
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
