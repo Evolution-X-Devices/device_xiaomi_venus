@@ -189,6 +189,7 @@ vendor/lib64/libalCFR.so
 vendor/lib64/libalLDC.so;DISABLE_CHECKELF
 vendor/lib64/libalhLDC.so;DISABLE_CHECKELF
 vendor/lib64/libbitmlengine.so
+vendor/lib64/libbitmlenginev2.so
 vendor/lib64/libblink.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera_dirty.so
