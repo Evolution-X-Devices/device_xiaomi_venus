@@ -38,11 +38,5 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
 
-# UDFPS
-$(call soong_config_set, BIOMETRIC_XIAOMI, USES_UDFPS_SENSOR, true)
-$(call soong_config_set, BIOMETRIC_XIAOMI, UDFPS_LOCATION_X, 720)
-$(call soong_config_set, BIOMETRIC_XIAOMI, UDFPS_LOCATION_Y, 2490)
-$(call soong_config_set, BIOMETRIC_XIAOMI, UDFPS_RADIUS, 132)
-
 # Include proprietary files
 include vendor/xiaomi/venus/BoardConfigVendor.mk
