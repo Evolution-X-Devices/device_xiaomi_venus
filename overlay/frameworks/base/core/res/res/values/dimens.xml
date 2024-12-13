@@ -16,6 +16,6 @@
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
     <dimen name="status_bar_height_default">30dp</dimen>
-    <dimen name="status_bar_height_portrait">137px</dimen>
+    <dimen name="status_bar_height_portrait">147px</dimen>
     <dimen name="status_bar_height_landscape">30dp</dimen>
 </resources>
