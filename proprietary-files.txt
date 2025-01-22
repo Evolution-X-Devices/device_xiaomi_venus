@@ -192,8 +192,8 @@ vendor/lib64/libSNPE.so
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libalAILDC.so;DISABLE_CHECKELF
 vendor/lib64/libalCFR.so
-vendor/lib64/libalLDC.so;DISABLE_CHECKELF
-vendor/lib64/libalhLDC.so;DISABLE_CHECKELF
+vendor/lib64/libalLDC.so
+vendor/lib64/libalhLDC.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libblink.so
 vendor/lib64/libc++_shared.so
@@ -273,10 +273,10 @@ vendor/lib64/libarcsoft_dual_sat.so
 vendor/lib64/libarcsoft_dual_zoomtranslator.so
 vendor/lib64/libarcsoft_dualcam_refocus_image.so
 vendor/lib64/libarcsoft_dualcam_refocus_video.so
-vendor/lib64/libarcsoft_hdrplus_hvx_stub.so;DISABLE_CHECKELF
+vendor/lib64/libarcsoft_hdrplus_hvx_stub.so
 vendor/lib64/libarcsoft_portrait_lighting.so
 vendor/lib64/libarcsoft_portrait_lighting_c.so
-vendor/lib64/libarcsoft_super_night_raw.so;DISABLE_CHECKELF
+vendor/lib64/libarcsoft_super_night_raw.so
 vendor/lib64/libarcsoft_triple_sat.so
 vendor/lib64/libarcsoft_triple_zoomtranslator.so
 

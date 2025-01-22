@@ -47,6 +47,21 @@ blob_fixups: blob_fixups_user_type = {
         .sig_replace('AA 06 00 94', '1F 20 03 D5'),
     'vendor/lib64/hw/com.qti.chi.override.so': blob_fixup()
         .add_needed('libprocessgroup_shim.so'),
+    ('vendor/lib64/libalLDC.so', 'vendor/lib64/libalhLDC.so'): blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
+    ('vendor/lib64/libarcsoft_hdrplus_hvx_stub.so', 'vendor/lib64/libarcsoft_super_night_raw.so', 'vendor/lib64/libmialgo_rfs.so', 'vendor/lib64/libmiphone_preview_bokeh.so'): blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open')
+        .clear_symbol_version('remote_handle64_close')
+        .clear_symbol_version('remote_handle64_invoke')
+        .clear_symbol_version('remote_handle64_open')
+        .clear_symbol_version('remote_register_buf_attr')
+        .clear_symbol_version('remote_session_control'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .sig_replace('8D 0A 00 94', '1F 20 03 D5'),
     'vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so': blob_fixup()
