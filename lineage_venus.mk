@@ -12,6 +12,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 EVO_BUILD_TYPE := Official
 TARGET_HAS_UDFPS := true
 TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_INCLUDE_VIPERFX := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Xiaomi
