@@ -30,15 +30,8 @@
     "target_path": "kernel/xiaomi/sm8350"
   },
   {
-    "repository": "crdroidandroid/proprietary_vendor_xiaomi_dolby",
-    "target_path": "vendor/xiaomi/dolby",
-    "remote": "gitlab",
-    "branch": "16.0"
-  },
-  {
-    "repository": "crdroidandroid/android_packages_apps_DolbyAtmos",
-    "target_path": "packages/apps/DolbyAtmos",
-    "remote": "github-non-los",
-    "branch": "16.0"
+    "repository": "packages_apps_ViPER4AndroidFX",
+    "target_path": "packages/apps/ViPER4AndroidFX",
+    "remote": "evo-devices"
   }
 ]
