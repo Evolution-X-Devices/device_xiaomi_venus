@@ -230,7 +230,6 @@ vendor/lib64/libmibokeh_mask_dsp.so
 vendor/lib64/libmiphone_preview_bokeh.so;DISABLE_CHECKELF
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmpbase.so
-vendor/lib64/libnanopb.so
 vendor/lib64/libofflinedump.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
@@ -241,13 +240,7 @@ vendor/lib64/libqllengine.so;DISABLE_CHECKELF
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libsnpe_htp.so
-vendor/lib64/libsns_api.so
 vendor/lib64/libsns_device_mode_stub.so
-vendor/lib64/libsns_fastRPC_util.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/libsns_registry_skel.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
