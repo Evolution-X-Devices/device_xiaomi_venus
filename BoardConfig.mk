@@ -11,6 +11,7 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Inherit from miuicamera-venus
 -include device/xiaomi/miuicamera-venus/BoardConfig.mk
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
 
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := venus
