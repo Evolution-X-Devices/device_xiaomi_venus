@@ -188,6 +188,7 @@ vendor/lib64/hw/camera.xiaomi.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/libBlinkStub.so
 vendor/lib64/libI420colorconvert.so
+vendor/lib64/libQnnHtpStub.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libalAILDC.so;DISABLE_CHECKELF
