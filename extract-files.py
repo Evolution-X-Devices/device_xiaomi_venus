@@ -38,8 +38,6 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'vendor/etc/camera/pureShot_parameter.xml': blob_fixup()
         .regex_replace(r'=(\d+)>', r'="\1">'),
-    'vendor/etc/libnfc-nxp.conf': blob_fixup()
-        .regex_replace(r'NXP_T4T_NFCEE_ENABLE=0x01', r'NXP_T4T_NFCEE_ENABLE=0x00'),
     'vendor/lib64/hw/camera.qcom.so': blob_fixup()
         .binary_regex_replace(b'\x73\x74\x5F\x6C\x69\x63\x65\x6E\x73\x65\x2E\x6C\x69\x63', b'\x63\x61\x6D\x65\x72\x61\x5F\x63\x6E\x66\x2E\x74\x78\x74')
         .add_needed('libprocessgroup_shim.so'),
