@@ -9,7 +9,7 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
 # Inherit from miuicamera-venus
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-venus/device.mk)
-$(call soong_config_set,camera,override_format_from_reserved,true)
+$(call soong_config_set_bool,camera,override_format_from_reserved,true)
 $(call soong_config_set,camera,package_name,com.android.camera)
 
 # Display Device Config
