@@ -103,7 +103,7 @@ vendor/lib/liba2dpoffload.so
 vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioalsa.so
-vendor/lib/libaudiocloudctrl.so
+vendor/lib/libaudiocloudctrl.so|bca9cc142b0b021a8011434fb319a80c4ed5b848
 vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
