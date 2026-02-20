@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -9,17 +8,14 @@ DEVICE_PATH := device/xiaomi/venus
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
-# Inherit from miuicamera-venus
--include device/xiaomi/miuicamera-venus/BoardConfig.mk
-
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := venus
 
-# Display
-TARGET_SCREEN_DENSITY := 560
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/hidl/manifest.xml
+
+# Display
+TARGET_SCREEN_DENSITY := 560
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/venus_QGKI.config
@@ -43,11 +39,8 @@ BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 
 # Properties
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Recovery
-TARGET_RECOVERY_UI_MARGIN_HEIGHT := 165
-
-# Include proprietary files
+# Inherit the proprietary files
 include vendor/xiaomi/venus/BoardConfigVendor.mk

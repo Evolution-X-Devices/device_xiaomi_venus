@@ -1,23 +1,15 @@
 #
-# Copyright (C) 2023 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
-
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from venus device
 $(call inherit-product, device/xiaomi/venus/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-EVO_BUILD_TYPE := Official
-TARGET_HAS_UDFPS := true
-
-# Device identifier. This must come after all inclusions.
+# Device identifier. This must come after all inclusions
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := venus
 PRODUCT_MANUFACTURER := Xiaomi
@@ -26,13 +18,8 @@ PRODUCT_NAME := lineage_venus
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-SystemName := venus_global
-SystemDevice := venus
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="venus_global-user 14 UKQ1.231207.002 V816.0.10.0.UKBMIXM release-keys" \
-    DeviceName=$(SystemDevice) \
-    DeviceProduct=$(SystemName)
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Xiaomi/venus_global/venus:14/UKQ1.231207.002/V816.0.10.0.UKBMIXM:user/release-keys
+    BuildDesc="venus_global-user 14 UKQ1.240624.001 OS2.0.3.0.UKBMIXM release-keys" \
+    BuildFingerprint=Xiaomi/venus_global/venus:14/UKQ1.240624.001/OS2.0.3.0.UKBMIXM:user/release-keys \
+    DeviceProduct=venus \
+    SystemName=venus_global
