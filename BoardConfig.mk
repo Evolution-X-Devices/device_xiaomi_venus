@@ -8,6 +8,13 @@ DEVICE_PATH := device/xiaomi/venus
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
+# Inherit from miuicamera-venus
+-include device/xiaomi/miuicamera-venus/BoardConfig.mk
+
+# Ignore overriding commands errors
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := venus
 
