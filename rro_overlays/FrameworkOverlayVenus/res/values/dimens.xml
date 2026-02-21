@@ -3,7 +3,7 @@
      SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- The default height of the status bar used in {@link SystemBarUtils#getStatusBarHeight} to
          calculate the status bar height. -->
     <dimen name="status_bar_height_default">28dp</dimen>
@@ -18,13 +18,13 @@
          -->
     <dimen name="status_bar_height_landscape">28dp</dimen>
 
-    <!-- Default paddings for content around the corners. -->
-    <dimen name="rounded_corner_content_padding">68px</dimen>
-
     <!-- Default radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">172px</dimen>
 
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_bottom">172px</dimen>
+
+    <!-- Default paddings for content around the corners. -->
+    <dimen name="rounded_corner_content_padding">68px</dimen>
 </resources>
