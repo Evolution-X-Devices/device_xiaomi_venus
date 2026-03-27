@@ -25,6 +25,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="venus_global-user 14 UKQ1.240624.001 OS2.0.3.0.UKBMIXM release-keys" \
-    BuildFingerprint=Xiaomi/venus_global/venus:14/UKQ1.240624.001/OS2.0.3.0.UKBMIXM:user/release-keys \
     DeviceProduct=venus \
     SystemName=venus_global
